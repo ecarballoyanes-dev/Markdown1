@@ -109,5 +109,5 @@ Para eso usamos "(![text](url))". También ayuda para textos, util la verdad
 
 Per ejemplo!:
 
-![img](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fes.dreamstime.com%2Fun-gato-furioso-image123570607&opi=89978449)
+![img](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fes.dreamstime.com%2Fun-gato-furioso-image123570607&ved=0CBcQjRxqFwoTCMiqs4z4lpcDFQAAAAAdAAAAABA4&opi=89978449)
 
