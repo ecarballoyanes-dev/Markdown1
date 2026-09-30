@@ -1,118 +1,113 @@
-# Welcome to Dillinger
+# Bienvenido a este README
 
-A clean, distraction-free markdown editor. Type on the left, see the rendered output on the right.
+Esto es solo un ejemplo de archivo readme de tipo Markdown para ir practicando poco a poco sobre este lenguaje de marca.
+
+
+---
+## Esto es solo el principio
+
+Este lenguaje tiene muchas cosas que puedes aprender y te serán útiles más adelante. (Sí o sí te lo tienes que aprender todo, o si no, moriste.)
 
 ---
 
-## Text Formatting
+# Formatos de texto
 
-Markdown makes it easy to format text. You can write in **bold**, *italic*, or ~~strikethrough~~. Combine them for ***bold italic*** text. Use `inline code` for technical terms.
+Los formatos de texto de Markdown te ayudan para acomodar y adornar los textos que quieres representar, muy útil para organizar, crear pasos para un orden u otras cosas. Tú practica ahí.
 
-## Lists
+Por ejemplo: si queremos que sea en "negritas" tenemos que ponerlo en ** delante y detrás de la palabra u oración:
 
-Unordered lists use dashes, asterisks, or plus signs:
+**Un ejemplo de negrita**
 
-- Import files from GitHub, Dropbox, or Google Drive
-- Export to Markdown, HTML, or PDF
-- Drag and drop files directly into the editor
+En "larga" (olvidé cómo se decía) es con un solo asterisco *:
 
-Ordered lists are numbered automatically:
+*Otro ejemplo de larga*
 
-1. Write your markdown
-2. Preview the rendered output
-3. Export or save to the cloud
+Y si quieres ambos puedes hacerlo de dos formas:
 
-Nested lists work too:
+Con ***:
 
-- Cloud integrations
-  - GitHub repositories
-  - Dropbox folders
-  - Google Drive files
-  - OneDrive and Bitbucket
-- Local features
-  - Auto-save to browser storage
-  - Image paste from clipboard
+***El ejemplo de ambos a la vez***
 
-## Task Lists
+O ___:
 
-- [x] Set up the editor
-- [x] Write some markdown
-- [ ] Connect a cloud service
-- [ ] Export the finished document
+___El otro ejemplo de ambas___
 
-## Links and Images
+Hay otro formato que es para cortar en horizontal las palabras: ~~
 
-Link to any page with [inline links](https://dillinger.io) or use [reference-style links][dillinger].
+~~Un ejemplo de cortado horizontal~~
 
-Images use a similar syntax:
+Para términos técnicos podemos hacerlo de esta forma:
 
-![Placeholder](https://placehold.co/600x200/2B2F36/35D7BB?text=Your+Image+Here)
+Con `:
 
-[dillinger]: https://dillinger.io
+`Un ejemplo técnico`
 
-## Blockquotes
+## Haciendo listas, listillo
 
-> The art of writing is the art of discovering what you believe.
->
-> — Gustave Flaubert
+Esto ayuda para hacer listas dependiendo del formatoo que escogamos:
 
-Blockquotes can contain other markdown elements:
+### Inordenadas, desordenadas, lo que sea
 
-> **Tip:** Use `Cmd+Shift+Z` to enter zen mode for distraction-free writing.
+Para este tipo de listas tenemos que poner simplemente una - al principio de cada línea de texto o programación, como sueles hacer con otros ejercicios:
 
-## Code
+- Mira por ejemplo esto es de lista
+- Y esto también
+- Y esto otro también
 
-Fenced code blocks support syntax highlighting:
+También usan asteriscos "*" y sumas "+":
 
-```javascript
-function greet(name) {
-  return `Hello, ${name}.`;
-}
+Con asteriscos:
 
-console.log(greet("world"));
-```
+* Aquí tienes otra lista más 
+* Y otras cosas más para agregar
+* Esto es puro texto no más
 
-```python
-def fibonacci(n):
-    a, b = 0, 1
-    for _ in range(n):
-        a, b = b, a + b
-    return a
-```
+Con sumas:
 
-## Tables
++ Mira otra lista más
++ Listas aquí
++ Listas allá
 
-| Shortcut | Action |
-|----------|--------|
-| `⌘ ⇧ Z` | Toggle zen mode |
-| `Escape` | Exit zen mode |
-| `?` | Keyboard shortcuts |
+### Ordenadas, organizadas, numeradas, justicia
 
-Tables support alignment:
+Con esto podemos organizar ideas de manera... organizada, enumerando cada elemento que pongamos:
 
-| Feature | Status | Notes |
-|:--------|:------:|------:|
-| Markdown editing | Active | Monaco-powered |
-| Live preview | Active | Scroll-synced |
-| Cloud sync | Available | 5 providers |
-| PDF export | Available | Server-rendered |
+1. La primera orden
+2. La segunda orden
+3. La tercera orden, supongo
 
-## Footnotes
+### Listas anidadas al nido
 
-Dillinger supports extended markdown syntax including footnotes[^1] and definition lists.
+Supongo que esto ayuda para crear una alineación propia a las listas. Pon un espacio antes de agregar la segunda línea(Ojo, esto se aplica a los diferentes tipos de listas):
 
-[^1]: Footnotes appear at the bottom of the rendered preview.
+- La primera
+ - La segunda con espacio
+ - La tercera en la misma línea
 
-## Math
++ La primera más
+ + La segunda más con espacio
+ + La tercera más en el mismo escpacio
 
-Inline math: $E = mc^2$
+- Aquí combino distintos
+ + Este con más
+ * Y este otro con asterísco
 
-Block equations:
+ ## Las task list, o de tarea , si no sabes inglés
 
-$$
-\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
-$$
+ Estas ayudan muchísimo a la hora de marcar o planificar algo que quieras. La forma de escribirlo es "[]" pero con un espacio en el medio. Una vez que completes o cumplas lo cometido, se volvería "[x]", confirmando. 
 
----
+ El ejemplo de esto sería:
 
-*Your documents save automatically. Start writing.*
+- [ ] No cumpliste
+- [x] Lo cumpliste
+
+## Enlaces e imágenes 
+
+A veces en vez de tener una imagen la solución es... ¡Exacto: un enlace externo!
+
+Para eso usamos "(![text](url))". También ayuda para textos, util la verdad
+
+Per ejemplo!:
+
+![img](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fes.dreamstime.com%2Fun-gato-furioso-image123570607&opi=89978449)
+
