@@ -112,6 +112,8 @@ Per ejemplo!:
 
 ![img](https://static.vecteezy.com/system/resources/previews/047/513/589/non_2x/furious-cartoon-cat-with-an-exaggerated-expression-of-anger-in-v-free-vector.jpg)
 
+Y para los enlaces: [Para ver agua, pulsa aquí](https://dle.rae.es/agua)
+
 
 ### Bloque de códigos
 Los bloques de código ayudan a poner líneas de códigos para programar:
