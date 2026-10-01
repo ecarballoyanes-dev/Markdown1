@@ -36,11 +36,11 @@ Hay otro formato que es para cortar en horizontal las palabras: ~~
 
 ~~Un ejemplo de cortado horizontal~~
 
-Para términos técnicos podemos hacerlo de esta forma:
+Para términos técnicos o código en línea podemos hacerlo de esta forma:
 
 Con `:
 
-`Un ejemplo técnico`
+`Un_ejemplo_técnico_o_código_en_línea`
 
 ## Haciendo listas, listillo
 
@@ -114,10 +114,12 @@ Per ejemplo!:
 
 
 ### Bloque de códigos
-Los bloques de código ponen el texto de una forma muy distinta a las anteriores:
+Los bloques de código ayudan a poner líneas de códigos para programar:
+```python
+code="Un ejemplo de código con python"
+print(code)
+```
 
-``Ser culto es el único modo de ser libre.
-- José Martí``
 
 ## Tablas de planchar
 
